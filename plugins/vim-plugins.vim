@@ -1,5 +1,3 @@
-# PLUGINS
-
 call plug#begin('~/.vim/plugged')
 
 Plug 'dracula/vim'
@@ -44,3 +42,9 @@ Plug 'vim-scripts/grep.vim'
 Plug 'vim-scripts/CSApprox'
 
 call plug#end()
+
+filetype plugin indent on
+filetype plugin on
+set signcolumn=auto
+set splitright
+set splitbelow

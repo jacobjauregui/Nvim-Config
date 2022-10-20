@@ -1,5 +1,3 @@
-# SETTINGS
-
 syntax enable
 set backupdir=~/.cache/nvim
 set clipboard=unnamed
@@ -18,9 +16,6 @@ set incsearch
 set wildmenu
 set wildmode=list,longest
 set noshowmode
-set signcolumn=auto
-set splitright
-set splitbelow
 
 " --------------------
 "      ENCODING

@@ -1,8 +1,8 @@
 " KEY-MAPS
-
 let mapleader=' '
-nnoremap <Leader>nt :NERDTreeToggle<CR>
-nmap <Leader>a <Plug>(easymotion-s2)
+silent! nmap <C-p> :NERDTreeToggle<CR>
+silent! map <F3> :NERDTreeFind<CR>
+nnoremap <Leader>s <Plug>(easymotion-s2)
 noremap h a
 nnoremap a i
 nnoremap i <Up>
@@ -19,8 +19,8 @@ nnoremap <Leader>j 0
 nnoremap <Leader>l $
 nnoremap <C-q> :q!<CR>
 nnoremap <Leader>q :q<CR>
-nnoremap <Leader>q :wq<CR>
-nnoremap <Leader>s :w<CR>
+nnoremap <C-w> :wq<CR>
+nnoremap <C-s> :w<CR>
 nnoremap <Right> 10<C-w>>
 nnoremap <Left> 10<C-w><
 nnoremap <F5> :!!$SHELL<CR>

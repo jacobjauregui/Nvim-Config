@@ -1,6 +1,3 @@
-# --------------------
-#     APPEARANCE
-# --------------------
 highlight Normal ctermbg=NONE
 colorscheme dracula
 set termguicolors
